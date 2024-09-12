@@ -1,8 +1,4 @@
-from dataclasses import dataclass, field
-from typing import List
-
 from model_objects import Customer, ShoppingList, CustomerType, Address
-
 
 class CustomerMatches:
     def __init__(self):
