@@ -1,9 +1,7 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
-
-from enum import Enum
-
 from dataclasses_json import dataclass_json
+from typing import List, Optional
+from enum import Enum
 
 
 class CustomerType(Enum):

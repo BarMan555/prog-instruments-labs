@@ -2,7 +2,6 @@ from customer_data_access import CustomerMatches
 from model_objects import Customer, ExternalCustomer, CustomerType
 
 
-
 class ConflictException(Exception):
     pass
 
