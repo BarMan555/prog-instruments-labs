@@ -1,5 +1,6 @@
 from model_objects import Customer, ShoppingList, CustomerType, Address
 
+
 class CustomerMatches:
     """
     Customer Mathces
