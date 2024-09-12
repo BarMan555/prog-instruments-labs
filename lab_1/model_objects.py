@@ -35,8 +35,12 @@ class ExternalCustomer:
 
 
 class Customer:
-    def __init__(self, internalId: str = None, externalId: str = None, masterExternalId: str = None, name: str = None,
-                 customerType: CustomerType = None, companyNumber: str = None):
+    def __init__(self, internalId: str = None, 
+                 externalId: str = None, 
+                 masterExternalId: str = None, 
+                 name: str = None,
+                 customerType: CustomerType = None, 
+                 companyNumber: str = None):
         self.internalId = internalId
         self.externalId = externalId
         self.masterExternalId = masterExternalId
